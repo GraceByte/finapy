@@ -1,0 +1,9 @@
+name: finapy-dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - tox
+  - pip:
+    - -e .[dev]
